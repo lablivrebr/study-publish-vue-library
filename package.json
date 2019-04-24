@@ -1,17 +1,25 @@
 {
-  "name": "study-publish-vue-library",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@vinnyfs89/study-publish-vue-library",
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-bundle": "vue-cli-service build --target lib --name testeLabLivre ./src/index.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/testeLabLivre.common.js",
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",

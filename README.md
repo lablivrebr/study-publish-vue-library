@@ -1,5 +1,11 @@
 # study-publish-vue-library
 
+- npm login
+- npm publish --access public
+
+- npm i --save study-publish-vue-library
+
+
 ## Project setup
 ```
 npm install
