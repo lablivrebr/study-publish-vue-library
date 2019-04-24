@@ -1,9 +1,9 @@
 import Vue from "vue";
-import App from "./App.vue";
+import AppLero from "./App.vue";
 import Banner from "./components/Banner.vue";
 
 const Components = {
-    App,
+    AppLero,
     Banner,
 };
 
